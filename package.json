@@ -1,0 +1,23 @@
+{
+  "name": "yarn-lockfile",
+  "version": "1.0.0",
+  "description": "parse and/or write `yarn.lock` files",
+  "main": "index.js",
+  "keywords": [],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "yarn": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmhilton/yarn-lockfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmhilton/yarn-lockfile/issues"
+  },
+  "homepage": "https://github.com/wmhilton/yarn-lockfile#readme"
+}

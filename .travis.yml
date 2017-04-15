@@ -1,0 +1,11 @@
+language: node_js
+node_js: 6
+deploy:
+  provider: npm
+  email: wmhilton@gmail.com
+  on:
+    skip_cleanup: true
+    tags: true
+    branch: master
+  api_key:
+    secure: upbh7K1LIWqb1srbfNi9EoRu89ZoIfoNXiZBWDTLLPPHkW7UJtH0/keYPzxeOZU3mNxmvKvrGUwim0K1zmmedwYRpAqrSjsJQLfjpVLeslHzazZExZlL68l6IUxLbY8JSFxFOoP3zytbV6y5F1JuoCzDeA+eDsdNsXzni6gekq7D9CklSEUbs3CHVsC3PDbHS/axZV4HtBaSH1TKEywawQGf7RSUnhK0rPGQzWK865inaR5C70B5HbDOhGlsb4yDsJBhlSIexjk3kjrDL4Vz2LVClpZ7VyzUAX8JoayHV72YURkuumyedbZVPGB2QFQsHiDkaafDf2CbgTcnW1udSM0/9T2wvt5EakXOtv+uslkYKNbLVmS3xsES9GAan2eEQ9H83I7/+/4FXCN31/EqS5IU27aVZftOftIFXEaueJO9P9Cqu8X5mvMDogg2bOKmJhmoPhvZe74WT2QsmvUsflNB15mx6wedFWp/5OEsKQNqYAFiFMGmBjd3K6OZl1c4ofhUQkbHN2rbWHuzKg4BT4jgA8c+HM85U8wnt8W1u/f/Dj+lcjVvpuW2V78a88gOObfXP5yM0Jegb8cp0yNb1HvDtsdJGnd5IxsfzcxNlA3sZUsqgW4M7SPY0ME6wFdY5mBxhD4a2uCFQHbCjSbKmX7NkIJ9y41bFRWGzbvB5xw=
