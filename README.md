@@ -1,3 +1,6 @@
+# DEPRECATED
+Yarn now publishes an official lockfile package at [@yarnpkg/lockfile](https://npm.im/@yarnpkg/lockfile)!
+
 # yarn-lockfile
 parse and/or write `yarn.lock` files
 
