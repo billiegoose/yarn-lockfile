@@ -7,7 +7,7 @@
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "Unlicense",
   "dependencies": {
-    "yarn": "*"
+    "@yarnpkg/lockfile": "*"
   },
   "repository": {
     "type": "git",
